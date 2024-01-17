@@ -1,50 +1,48 @@
 body{
-        font-family: Helvetica, "Times New Roman", sans-serif;
-        background: linear-gradient(45deg, #ffedd1, #fff0d1, #fff5d1);
-        height: 100vh;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 18px;
+	background: linear-gradient(45deg, #ffedd1, #fff0d1, #fff5d1);
+	height: 100vh;
 }
 
 #header{
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
-.block{
-	line-height: 2;
-        display: block;
+img{
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px grey;
+}
+.ingredient, .step{
+	line-height: 1.5;
+	width: 600px;
 	margin: auto;
 	margin-top: 6px;
 	margin-bottom: 6px;
-	border-radius: 25px;
-        width: min(80%, 600px);
-        box-shadow: 0px 0px 20px rgb(153, 153, 153);
-	background-color: white;
-}
-.para{
 	padding: 10px;
-	text-align: left;
+	padding-left: 15px;
+	border: 3px solid rgb(161, 111, 45);
+	border-radius: 20px;
+        box-shadow: 10px 10px 15px grey;
+	background-color: white;
 }
 h3 {
 	text-align: center;
 }
-h4 {
-	padding-left: 14px
-}
-
-h3,h4{
+h4{
 	text-decoration: underline;
 }
+
 .button{
-    transform: translateY(-2.3rem);
-    text-align: center;
-    position: fixed;
-    height: 4rem;
-    width:8rem;
-    line-height: 5.5rem;
-    left:0px;
-    top:0px;
-    background-color: white;
-    box-shadow: 0px 0px 15px black;
-    border-radius: 50%;
-    border: 5px solid olive;
+	margin: 10px 15px;
+	border: 3px solid rgb(161, 111, 45); 
+	border-radius: 8px;
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+	font-weight: 700;
 }
+
